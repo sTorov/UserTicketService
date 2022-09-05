@@ -21,5 +21,14 @@ namespace UserTicketService.Tests__NUnit_
 
             Assert.That(0 == calculation.Subtraction(1, 1));
         }
+
+        //Задание 16.2.5
+        [Test]
+        public void Division_MustReturnCorrectValue()
+        {
+            Calculation calculation = new();
+
+            Assert.That(5 == calculation.Division(25, 5));
+        }
     }
 }
