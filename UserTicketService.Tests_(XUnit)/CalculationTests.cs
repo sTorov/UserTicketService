@@ -20,5 +20,14 @@ namespace UserTicketService.Tests__XUnit_
 
             Assert.True(5 == calculation.Subtraction(10, 5));
         }
+
+        //Задание 16.2.8 (Поверка корректности вычислений)
+        [Fact]
+        public void Division_MustReturnCorrectValue()
+        {
+            var calculation = new Calculation();
+
+            Assert.True(100 == calculation.Division(1000, 10));
+        }
     }
 }
