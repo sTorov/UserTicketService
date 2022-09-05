@@ -8,7 +8,7 @@ namespace UserTicketService.Tests
         [Test]
         public void Test1()
         {
-            Assert.True(50 == 100);
+            Assert.True(50 == 100);            
         }
     }
 }
