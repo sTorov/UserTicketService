@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 
-namespace UserTicketService.Tests__NUnit_
+namespace UserTicketService.Tests
 {
     [TestFixture]
-    public class TicketServiceTests
+    public class TicketServiceTests_NUnit
     {
         [Test]
         public void GetTicketPrice_MustReturnNotNullableTicket()

@@ -1,10 +1,10 @@
 ﻿using Moq;
 using NUnit.Framework;
 
-namespace UserTicketService.Tests__NUnit_
+namespace UserTicketService.Tests
 {
     [TestFixture]
-    public class TicketPriceTests
+    public class TicketPriceTests_NUnit
     {
         [Test]
         public void TicketPrice_MustReturnNotNullableTicket()

@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTicketService", "UserTicketService\UserTicketService.csproj", "{49732285-7517-4300-950B-D0917250C9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserTicketService", "UserTicketService\UserTicketService.csproj", "{49732285-7517-4300-950B-D0917250C9A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTicketService.Tests_(NUnit)", "UserTicketService.Tests\UserTicketService.Tests_(NUnit).csproj", "{E74CD7D8-3DEE-460E-B03C-C0350DB9398B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTicketService.Tests_(XUnit)", "UserTicketService.Tests_(XUnit)\UserTicketService.Tests_(XUnit).csproj", "{8E9B8060-6709-4736-A768-92AC063C72EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserTicketService.Tests", "UserTicketService.Tests\UserTicketService.Tests.csproj", "{E74CD7D8-3DEE-460E-B03C-C0350DB9398B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{E74CD7D8-3DEE-460E-B03C-C0350DB9398B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E74CD7D8-3DEE-460E-B03C-C0350DB9398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E74CD7D8-3DEE-460E-B03C-C0350DB9398B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E9B8060-6709-4736-A768-92AC063C72EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E9B8060-6709-4736-A768-92AC063C72EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E9B8060-6709-4736-A768-92AC063C72EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E9B8060-6709-4736-A768-92AC063C72EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

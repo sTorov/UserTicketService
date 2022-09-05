@@ -1,10 +1,10 @@
 ﻿using Moq;
 using NUnit.Framework;
 
-namespace UserTicketService.Tests__NUnit_
+namespace UserTicketService.Tests
 {
     [TestFixture]
-    public class CalculationSendMessageTests
+    public class CalculationSendMessageTests_NUnit
     {
         [Test]
         public void Multiplication_MustReturnNotNullValue()

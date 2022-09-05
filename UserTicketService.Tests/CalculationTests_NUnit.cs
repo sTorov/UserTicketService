@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 
-namespace UserTicketService.Tests__NUnit_
+namespace UserTicketService.Tests
 {
     [TestFixture]
-    public class CalculationTests
+    public class CalculationTests_NUnit
     {
         [Test]
         public void Multiplication_MustReturnNotNull()

@@ -1,8 +1,8 @@
 ﻿using Xunit;
 
-namespace UserTicketService.Tests__XUnit_
+namespace UserTicketService.Tests
 {
-    public class CalculationTests
+    public class CalculationTests_XUnit
     {
         [Fact]
         public void Multiplication_MustReturnNotNull()
@@ -40,3 +40,4 @@ namespace UserTicketService.Tests__XUnit_
         }
     }
 }
+
