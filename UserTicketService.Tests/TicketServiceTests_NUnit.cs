@@ -18,5 +18,12 @@ namespace UserTicketService.Tests
             var ticketServiceTest = new TicketService();
             Assert.Throws<TicketNotFoundException>(() => ticketServiceTest.GetTicketPrice(100));
         }
+
+        [Test]
+        public void GetTicket_MustReturnNotNullableTicket()
+        {
+            var ticketServiceTest = new TicketService();
+            Assert.NotNull(ticketServiceTest.GetTicket(1));
+        }
     }
 }
