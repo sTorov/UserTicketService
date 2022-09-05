@@ -1,6 +1,6 @@
 ﻿namespace UserTicketService
 {
-    class TicketService : ITicketService
+    public class TicketService : ITicketService
     {
         public int GetTicketPrice(int ticketId)
         {

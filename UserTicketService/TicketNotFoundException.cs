@@ -1,6 +1,6 @@
 ﻿namespace UserTicketService
 {
-    class TicketNotFoundException : Exception
+    public class TicketNotFoundException : Exception
     {
     }
 }
