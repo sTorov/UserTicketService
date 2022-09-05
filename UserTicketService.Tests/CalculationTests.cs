@@ -33,7 +33,7 @@ namespace UserTicketService.Tests__NUnit_
 
         //Задание 16.2.6 (Проверка типа исключения)
         [Test]
-        public void Division_MustReturnThrowException()
+        public void Division_MustThrowException()
         {
             var calculation = new Calculation();
 

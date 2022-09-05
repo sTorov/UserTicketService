@@ -29,5 +29,14 @@ namespace UserTicketService.Tests__XUnit_
 
             Assert.True(100 == calculation.Division(1000, 10));
         }
+
+        //Задание 16.2.9 (Проверка исключения DivideByZeroException)
+        [Fact]
+        public void Division_MustThrowException()
+        {
+            var calculation = new Calculation();
+
+            Assert.Throws<DivideByZeroException>(() => calculation.Division(17, 0));
+        }
     }
 }
