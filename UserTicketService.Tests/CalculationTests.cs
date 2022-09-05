@@ -48,5 +48,14 @@ namespace UserTicketService.Tests__NUnit_
             //    Assert.IsTrue(e is DivideByZeroException);
             //}
         }
+
+        //Пример тестирования сложения
+        [Test]
+        public void Add_AlwaysReturnsExpectedValue()
+        {
+            var calculation = new Calculation();
+
+            Assert.That(calculation.Add(200, 10), Is.EqualTo(210));
+        }
     }
 }
