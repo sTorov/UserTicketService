@@ -21,7 +21,8 @@
             FakeBaseData.Add(ticket);
         }
 
-        public void DeleteTicket(Ticket ticket)
+        //UserTicketServiceIntegrationTests
+        /*public*/ private void DeleteTicket(Ticket ticket)
         {
             FakeBaseData.Remove(ticket);
         }

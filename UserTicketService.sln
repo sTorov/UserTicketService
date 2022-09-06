@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Translator", "Translator\Tr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Translator.Tests", "Translator.Tests\Translator.Tests.csproj", "{D99010B7-FC1D-4905-831C-4874846CE795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{A933B7D8-A63F-40AE-AC9D-344D921C952D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks", "Tasks\Tasks.csproj", "{A933B7D8-A63F-40AE-AC9D-344D921C952D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.Tests", "Tasks.Tests\Tasks.Tests.csproj", "{4B81995C-D9BE-4C4F-9D9E-AE3D3BA35419}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.Tests", "Tasks.Tests\Tasks.Tests.csproj", "{4B81995C-D9BE-4C4F-9D9E-AE3D3BA35419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
