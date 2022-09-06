@@ -5,5 +5,8 @@
         private int IsTrue(int a, int b) => a + b;
     }
 
-    public class MyClass : BaseClass { }
+    public class MyClass : BaseClass, IDisposable
+    {
+        public void Dispose() { }        
+    }
 }
