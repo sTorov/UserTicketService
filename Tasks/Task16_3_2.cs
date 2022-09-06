@@ -1,4 +1,4 @@
-﻿namespace UserTicketService
+﻿namespace Tasks
 {
     /*
      * По аналогии с предыдущим заданием выполните тестирование функции FindAll при помощи moq-объекта. 

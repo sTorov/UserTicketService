@@ -1,7 +1,7 @@
 ﻿using Moq;
 using Xunit;
 
-namespace UserTicketService.Tests
+namespace Tasks.Tests
 {
     public class Task16_3_2_Tests_XUnit
     {

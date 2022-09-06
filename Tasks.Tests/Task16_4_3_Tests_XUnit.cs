@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace UserTicketService.Tests
+namespace Tasks.Tests
 {
 
     /*

@@ -1,4 +1,4 @@
-﻿namespace UserTicketService
+﻿namespace Tasks
 {
     public class Calculation
     {

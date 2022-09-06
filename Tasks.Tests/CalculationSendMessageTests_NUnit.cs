@@ -1,7 +1,7 @@
 ﻿using Moq;
 using NUnit.Framework;
 
-namespace UserTicketService.Tests
+namespace Tasks.Tests
 {
     [TestFixture]
     public class CalculationSendMessageTests_NUnit

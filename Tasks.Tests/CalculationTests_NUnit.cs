@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace UserTicketService.Tests
+namespace Tasks.Tests
 {
     [TestFixture]
     public class CalculationTests_NUnit
